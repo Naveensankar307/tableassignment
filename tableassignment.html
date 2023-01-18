@@ -4,16 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Pacifico&family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
     <title>food menu</title>
     <style>
-      table,tr,td,th{
-        border: 1px solid #BB2649;
+      body{
+        background-color: #6dd5ed;
+        font-family: cabin;
+        color: #BB2649;
+      }
+      .head{
+        color: #BB2649;
+        display: grid;
+        place-items: center;
+      }
+      .Table{
+        margin: auto;
       }
     </style>
   </head>
   <body>
-    <h2>food menu</h2>
-    <table>
+    <div class="head">
+    <h2 >food menu</h2>
+  </div>
+    <table class="Table" border="1">
+      <!-- heads  -->
       <tr class="row-1">
         <th rowspan="2">Type</th>
         <th rowspan="2">Dish Name</th>
